@@ -3,4 +3,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+
+  get '/api/test', to: 'application#test'
+  resources :rooms, only: [:index, :create]
 end
