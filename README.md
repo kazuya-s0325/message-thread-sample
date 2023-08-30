@@ -18,6 +18,8 @@ $ bundle exec rails s
 ~~~
 $ npm install
 $ npm run format
+~~~
+vue.js server start up
+~~~
 $ npm run dev
-(vue.js server start up)
 ~~~
